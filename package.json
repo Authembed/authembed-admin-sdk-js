@@ -7,6 +7,9 @@
     "email": "edgar.pogosyan.a@gmail.com",
     "url": "https://github.com/Edgar-P-yan"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "url": "https://github.com/Authembed/authembed-admin-sdk-js",
     "type": "git"
