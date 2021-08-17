@@ -1,6 +1,6 @@
 {
   "name": "@authembed/admin",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "description": "Authembed Admin SDK for JavaScript",
   "author": {
     "name": "Edgar Pogosyan",

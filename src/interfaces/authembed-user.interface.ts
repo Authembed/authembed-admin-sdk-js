@@ -1,6 +1,6 @@
 import { JSONObject } from "./json-object.interface";
 
-export class AuthembedUser<M extends JSONObject = JSONObject, P extends JSONObject = JSONObject> {
+export interface AuthembedUser<M extends JSONObject = JSONObject, P extends JSONObject = JSONObject> {
   _id: string;
   createdAt: Date;
   updatedAt: Date;
@@ -10,8 +10,4 @@ export class AuthembedUser<M extends JSONObject = JSONObject, P extends JSONObje
   emailVerified: boolean;
   metadata: M;
   privateMetadata: P;
-
-  constructor(data: AuthembedUser<M, P>) {
-    Object.assign(data)
-  }
 }

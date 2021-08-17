@@ -1,5 +1,5 @@
 import { JSONObject } from "./json-object.interface";
-export declare class AuthembedUser<M extends JSONObject = JSONObject, P extends JSONObject = JSONObject> {
+export interface AuthembedUser<M extends JSONObject = JSONObject, P extends JSONObject = JSONObject> {
     _id: string;
     createdAt: Date;
     updatedAt: Date;
@@ -9,5 +9,4 @@ export declare class AuthembedUser<M extends JSONObject = JSONObject, P extends 
     emailVerified: boolean;
     metadata: M;
     privateMetadata: P;
-    constructor(data: AuthembedUser<M, P>);
 }
